@@ -11,6 +11,15 @@ $todos = [
 // }
 echo "Hello, World!\n";
 
-$status = "404" ;
+$text = 'Not found';
+$status = "404 $text" ;
+$combine = $text ." ". $status;
+
 echo $status;
 var_dump($status);
+
+echo $combine;
+
+$status = (float) "60";
+var_dump($status);
+echo $status;
