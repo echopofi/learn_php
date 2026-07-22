@@ -23,3 +23,6 @@ echo $combine;
 $status = (float) "60";
 var_dump($status);
 echo $status;
+
+$var = "400" * 4;
+var_dump($var);
