@@ -14,3 +14,12 @@ var_dump($colors[2]);
 
 $colors[] = "yellow";
 var_dump(count($colors));
+
+echo "\n======================\n";
+if(count($colors) >= 4){
+	echo "Number of colors greater than 4";
+};
+
+if(isset($colors)){
+	echo "\nisset check\n";
+}
