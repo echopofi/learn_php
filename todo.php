@@ -26,3 +26,10 @@ echo $status;
 
 $var = "400" * 4;
 var_dump($var);
+
+$array = [
+	"name" => "A'aron",
+	"isMarried" => false,
+	"hobbies" => ["driving", "swimming", "coding"]
+];
+var_dump($array["hobbies"][1]);

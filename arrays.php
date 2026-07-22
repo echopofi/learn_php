@@ -10,3 +10,4 @@ $user = [
 ];
 var_dump($user);
 echo $user["name"];
+var_dump($colors[2]);
