@@ -11,3 +11,6 @@ $user = [
 var_dump($user);
 echo $user["name"];
 var_dump($colors[2]);
+
+$colors[] = "yellow";
+var_dump(count($colors));
