@@ -23,3 +23,7 @@ if(count($colors) >= 4){
 if(isset($colors)){
 	echo "\nisset check\n";
 }
+
+//unset[index] deletes the value at specified index
+unset($colors[0]);
+var_dump($colors);
