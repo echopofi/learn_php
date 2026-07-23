@@ -27,3 +27,10 @@ if(isset($colors)){
 //unset[index] deletes the value at specified index
 unset($colors[0]);
 var_dump($colors);
+//echo $colors;
+//print($colors);
+print_r($colors);
+
+$name = $user["name"];
+print($name);
+print_r($name);
